@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bookmarker
+  </title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+  <h2 class="mx-auto w-50 text-center my-5 py-2 text-bg-dark">Bookmarker
+  </h2>
+  <div class="py-5 mx-auto w-75 text-center text-bg-secondary shadow mb-5 ">
+    <h3 class="mb-4">Bookmark your favorite sites    </h3>
+    <label for="sitename" class="fs-4 mb-2"> Site name:</label>
+    <input type="text" placeholder="Bookmark Name" id="sitename" class="form-control w-75 mb-3 mx-auto" >
+    <p class="alert  alert-danger mx-auto w-75 d-none" id="alertName">Must Write Site Name</p>
+
+    <label for="siteurl" class="fs-4 mb-2"> Site URL:</label>
+    <input type="text" placeholder="Website URL" id="siteurl" class="form-control w-75 mb-4 mx-auto" >
+    <p class="alert  alert-danger mx-auto w-75 d-none" id="alertuRL">Must Write Site URL</p>
+    <button class="btn btn-primary px-3 mb-5" id="submit"> Submit</button>
+   
+  </div>
+  <table class=" table w-50  mx-auto table-hover text-center table-light shadow">
+
+    <tbody  id="tbody">
+    </tbody>
+  </table>
+
+  <script src="main.js"></script>
+</body>
+</html>
